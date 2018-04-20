@@ -99,9 +99,11 @@ const addUser = user => {
 
 // Renders a new message and finds the user that belongs to the message
 const addMessage = message => {
+  
   // Find the user belonging to this message or use the anonymous user if not found
   const { user = {} } = message;
   const chat = document.querySelector('.chat');
+  
   // Escape HTML
   const text = message.text
     .replace(/&/g, '&amp;')

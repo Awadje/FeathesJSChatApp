@@ -36,6 +36,7 @@
     "@feathersjs/express": "^1.2.2",
     "@feathersjs/feathers": "^3.1.4",
     "@feathersjs/socketio": "^3.2.1",
+    "asyncawait": "^1.0.6",
     "compression": "^1.7.2",
     "cors": "^2.8.4",
     "feathers-nedb": "^3.0.0",
